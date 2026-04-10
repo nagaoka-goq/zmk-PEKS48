@@ -52,9 +52,9 @@
 
         layer_1 {
             bindings = <
-&trans  &kp EXCL   &kp AT    &kp HASH  &kp DLLR       &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &trans
-&trans  &kp PRCNT  &kp AMPS  &kp PIPE  &kp BACKSLASH  &kp LBRC    &kp RBRC  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK     &trans
-&trans  &trans     &kp SQT   &kp DQT   &kp GRAVE      &kp LBKT    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans
+&trans  &kp EXCL   &kp AT    &kp HASH  &kp DLLR       &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp C_VOL_UP
+&trans  &kp PRCNT  &kp AMPS  &kp PIPE  &kp BACKSLASH  &kp LBRC    &kp RBRC  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK     &kp C_VOLUME_DOWN
+&trans  &trans     &kp SQT   &kp DQT   &kp GRAVE      &kp LBKT    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &kp K_MUTE
 &trans  &trans     &trans    &trans    &trans         &trans      &trans    &trans        &trans        &trans        &trans        &trans
             >;
         };
